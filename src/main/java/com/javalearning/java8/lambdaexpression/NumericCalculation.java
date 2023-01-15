@@ -2,6 +2,10 @@ package com.javalearning.java8.lambdaexpression;
 
 import java.util.Random;
 
+/**
+ * Lambda expressions are introduced in Java 8 and are touted to be the biggest feature of Java 8.
+ * Lambda expression facilitates functional programming, and simplifies the development a lot.
+ */
 public class NumericCalculation {
     public static void main(String[] args) {
         MathOperation addition = (a, b) -> a + b;
